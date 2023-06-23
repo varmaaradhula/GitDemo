@@ -1,0 +1,4768 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>/Users/varma/Documents/JavaProgramming/APITestNGFramework/reports/Extent_Mon_Nov_14_22_22_15_GMT_2022.html</title>
+
+	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
+	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
+</head>
+	<body class='extent standard default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo black"><img src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png"></a>
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+		</ul>
+		<!-- report name -->
+		<span class='report-name'>/Users/varma/Documents/JavaProgramming/APITestNGFramework/reports/Extent_Mon_Nov_14_22_22_15_GMT_2022.html</span>
+		<!-- report headline -->
+		<span class='report-headline'></span>
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>Nov 14, 2022 10:22:15 PM</span>
+			</a>
+		</ul>
+	</div>
+</nav>		<!-- container -->
+		<div class='container'>
+<div id='test-view' class='view'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+			<!-- category toggle -->
+			<!-- category toggle -->
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+				<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+				<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+<div id='test-view-charts' class='subview-full'>
+    <div id='charts-row' class='row nm-v nm-h'>
+        <div class='col s12 m12 l12 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Tests</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='parent-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='99.048%'><span class='strong'>104</span> test(s) passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0.952%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="timeline-chart" class="row nm-v nm-h">
+        <div class="col s12 m12 l12 np-h">
+            <div class="card-panel">
+                <div class='left panel-name'>Timeline (seconds)</div>
+                <div class="chart-box" style="width:98%;max-height:145px;">
+                    <canvas id="timeline" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='test-collection' class='test-collection'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.CreateCustomerTest     @TestCase : validateCreateCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:17 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:17 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:20 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+898ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:20 PM</td>
+				<td class='step-details'>
+						{email=baby7913@gmail.com, name=Baby, description=adding my wife as customer from framework}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:20 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.CreateCustomerTest     @TestCase : validateCreateCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:17 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:17 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:20 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+888ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:20 PM</td>
+				<td class='step-details'>
+						{email=preesha.aradhula@gmail.com, name=Preesha, description=adding my daugther as customer from framework}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:20 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.CreateCustomerTest     @TestCase : validateCreateCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:17 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:17 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:20 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+888ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:20 PM</td>
+				<td class='step-details'>
+						{email=myemail.id@gmail.com, name=Varma, description=adding the customer from framework}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:20 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.CreateCustomerTest     @TestCase : validateCreateCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:17 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:17 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:20 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+887ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:20 PM</td>
+				<td class='step-details'>
+						{email=Ayansh.aradhula@gmail.com, name=Ayansh, description=adding my son as customer from framework}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:20 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.CreateCustomerTest     @TestCase : InvalidateCreateCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:20 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:20 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:21 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+179ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>10:22:21 PM</td>
+				<td class='step-details'>
+						<details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:110)<br> org.testng.Assert.failNotEquals(Assert.java:1413)<br> org.testng.Assert.assertEqualsImpl(Assert.java:149)<br> org.testng.Assert.assertEquals(Assert.java:131)<br> org.testng.Assert.assertEquals(Assert.java:1240)<br> org.testng.Assert.assertEquals(Assert.java:1274)<br> com.bliss.APITestingFramework.Testcases.CreateCustomerTest.InvalidateCreateCustomerAPI(CreateCustomerTest.java:35)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br> java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br> java.base/java.lang.reflect.Method.invoke(Method.java:568)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br> org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)<br> org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br> java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)<br> java.base/java.lang.Thread.run(Thread.java:833)]</details>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>10:22:21 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>TEST CASE FAILED</span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:21 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:21 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+974ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmRjcj68c0GQe}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:21 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:21 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+974ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmQYuLj8ENCNk}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:21 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:21 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+998ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmOnGok3POLzH}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:21 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:21 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+974ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmOhrcAgdBjyJ}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:21 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:21 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+975ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmQJuMGPhMa3d}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:21 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:21 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+973ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmR1tWadNakjj}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:21 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:21 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+974ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmQCgoSwPWRdD}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='13'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:21 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:21 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+971ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmRSsMFdk8e5E}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='14'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:21 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:21 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+971ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmRxIAfEqKDEa}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='15'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:21 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:21 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+971ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmQKZd0zG847d}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='16'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+941ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmKuLwZVo1BAu}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='17'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+946ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmKO5nXWl8jRc}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='18'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+946ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmMlXl11AoaTP}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='19'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+937ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmMyoLWd4T5LD}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='20'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+934ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmOXMqZc5X2h2}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='21'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+939ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmM7EatwzNC5R}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='22'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+939ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmMJOnx8IiuUA}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='23'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+934ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mnm2H9tKttLLWI}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='24'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+939ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mnm2vhRtoSWUkF}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='25'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:22 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+934ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnmKwmfJpgy9T6}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='26'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+830ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mnlv8ZyOa80Rcx}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='27'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+835ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnluppHYfaq1fr}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='28'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+835ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mni4XyORg6Bx5R}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='29'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+834ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnluhbuJj5qksc}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='30'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+812ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnlxgxtExF3HJE}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='31'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+834ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnlxpXxsbR7zEd}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='32'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+829ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mnlx9t2zGYh0Ui}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='33'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+816ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mnm2aaYZldslsB}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='34'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+816ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mnm2vglWHz4N4A}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='35'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+816ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnlxtBGzbtrvMU}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:23 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='36'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+831ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mni49tez1A9WMJ}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='37'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+826ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnhqDoyy2wCXyK}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='38'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+825ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mni4gxEIsPQS7D}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='39'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+822ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mnhq2wTd9q8MCU}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='40'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+822ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnhqyXrmutqsbb}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='41'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+818ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mnhg37Xia8cNVS}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='42'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+817ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mnhggy4rKNHnAV}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='43'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+815ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnhgHDrFmOU3QS}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='44'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+816ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnhgOdWzHn1FlX}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='45'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:23 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+814ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnheplFWj7oR7a}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='46'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:24 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+867ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnhTZHMxPnRudi}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='47'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:24 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+845ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnhT8v9sY90yU1}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='48'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:24 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+847ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnhTIwpuI6clw5}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='49'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:24 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+848ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnhdkFRlTFBxED}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='50'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:24 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+897ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mngwv01jlGIlM7}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='51'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:24 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+864ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mnhddql2rn6Wtk}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='52'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:24 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+863ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mngw2XMYTnsmlF}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='53'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:24 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+842ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MngwJbJ1AeREoO}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='54'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:24 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+895ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mnhd6SHLmN4GQz}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='55'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:24 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:24 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+818ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnhTCHWEWnZCso}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:25 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='56'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+605ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MneqwWQLWKwNNu}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='57'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+552ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MneqxLCkakBlx5}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='58'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+552ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MngwFz5rmfrESH}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='59'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+552ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mneqc6kw6IEexp}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='60'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+551ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MneqI2D3HogMqU}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='61'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+570ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnejX3XVlCsJXB}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='62'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+517ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnejHT5pot4Eal}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='63'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+510ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnejryQ9gNEGyv}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='64'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+509ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnejVMI5lkayXE}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='65'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:25 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+562ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnegtZkKv9qdoL}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='66'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+735ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MndoPQrhK2il1o}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='67'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+751ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnegT34myDp7Tk}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='68'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+749ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MndoSKjj74q5MG}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='69'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+749ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MndoPpvAQ8ZDTp}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='70'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+749ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mndo8jsl5TMe5X}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='71'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+734ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mneg7RyIMGlUTw}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='72'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+734ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MneguOrxmmIdup}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='73'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+706ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnQeWCi93In9bL}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='74'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+690ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnQduLuACythZV}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='75'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+690ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnQeLcSZMYl4Rc}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:26 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='76'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+731ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnPwproBTpUOCj}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='77'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+727ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnPgyGpMEMC50q}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='78'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+727ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnPgth3I9zjxaU}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='79'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+727ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnPgdwbtySTTrT}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='80'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+734ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnPwBZvNzDfvr3}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='81'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+732ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmfBrtzKoALjko}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='82'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+731ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnPgxqqAIgeV9c}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='83'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+726ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnPwcN373E17xu}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='84'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+726ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnPwv14dCAFIhF}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='85'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:26 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+730ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MnQdQtjMktg3hh}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='86'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+721ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmfBAhEd0TFCA1}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='87'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+720ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmfBz4Q37lrlBA}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='88'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+720ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmfBAyfDTajUIP}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='89'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+718ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmfAAgRp57vQnX}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='90'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+713ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmfA0dskJPdu9J}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='91'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+708ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmejgUsPQqMHt9}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='92'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+710ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmejMzfakdEZ5G}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='93'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+713ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmfAZMiUtiVdM6}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='94'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+710ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmfAQw66vLWK1H}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='95'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:27 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+707ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmejF8Gelq5MXx}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='96'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+660ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mmeh6euPAx9NW4}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='97'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+666ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmehDrGe5ymWVz}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='98'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+660ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmejYFilgmb849}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='99'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+660ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmehQhLiox21Uu}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='100'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+658ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmeBWE13BOfp6S}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='101'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+659ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmeBGbpZgTbCAn}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='102'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+653ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						{customerId=cus_Mme8WSB7HDfJoZ}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='103'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+659ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmeBsIktwwvra6}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='104'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+658ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmehYV3ngoZTQ5}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='105'>
+					<div class='test-heading'>
+						<span class='test-name'>com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI</span>
+						<span class='test-time'>Nov 14, 2022 10:22:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 14, 2022 10:22:28 PM</span>
+	<span class='label end-time'>Nov 14, 2022 10:22:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+657ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						{customerId=cus_MmeBEkt0kBOdsY}
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>10:22:29 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TEST CASE:- VALIDATEDELETECUSTOMERAPI PASSED</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<div id='step-filters' class="right sr-filters">
+				<a class="btn-floating waves-effect waves-light green" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></a>
+				<a class="btn-floating waves-effect waves-light red" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light red darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light pink text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></a>
+				<a class="btn-floating waves-effect waves-light orange" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></a>
+				<a class="btn-floating waves-effect waves-light teal" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></a>
+				<a class="btn-floating waves-effect waves-light grey" status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></a>
+			</div>
+			<h5 class='test-name'></h5>
+		</div>
+	</div>
+	<!-- subview right -->
+</div>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>105</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>0</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Nov 14, 2022 10:22:15 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Nov 14, 2022 10:22:29 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 0m 13s+199ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>Automation Tester</td>
+								<td>Varma Aradhula</td>
+							</tr>
+							<tr>
+								<td>Organization</td>
+								<td>Bliss Software Solutions</td>
+							</tr>
+							<tr>
+								<td>Build no</td>
+								<td>BLI-1234</td>
+							</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->		</div>
+		<!-- container -->
+		<script>
+			var statusGroup = {
+                parentCount: 105,
+				passParent: 104,
+				failParent: 1,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 1,
+				childCount: 0,
+				passChild: 0,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				debugChild: 0,
+				exceptionsChild: 0,
+				grandChildCount: 0,
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				debugGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		<script>
+			var timeline = {
+			        "com.bliss.APITestingFramework.Testcases.CreateCustomerTest     @TestCase : validateCreateCustomerAPI":2.898,"com.bliss.APITestingFramework.Testcases.CreateCustomerTest     @TestCase : validateCreateCustomerAPI":2.888,"com.bliss.APITestingFramework.Testcases.CreateCustomerTest     @TestCase : validateCreateCustomerAPI":2.888,"com.bliss.APITestingFramework.Testcases.CreateCustomerTest     @TestCase : validateCreateCustomerAPI":2.887,"com.bliss.APITestingFramework.Testcases.CreateCustomerTest     @TestCase : InvalidateCreateCustomerAPI":0.179,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.974,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.974,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.998,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.974,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.975,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.973,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.974,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.971,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.971,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.971,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.941,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.946,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.946,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.937,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.934,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.939,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.939,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.934,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.939,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.934,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.83,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.835,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.835,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.834,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.812,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.834,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.829,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.816,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.816,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.816,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.831,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.826,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.825,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.822,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.822,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.818,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.817,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.815,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.816,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.814,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.867,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.845,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.847,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.848,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.897,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.864,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.863,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.842,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.895,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.818,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.605,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.552,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.552,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.552,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.551,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.57,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.517,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.51,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.509,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.562,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.735,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.751,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.749,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.749,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.749,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.734,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.734,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.706,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.69,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.69,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.731,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.727,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.727,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.727,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.734,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.732,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.731,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.726,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.726,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.73,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.721,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.72,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.72,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.718,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.713,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.708,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.71,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.713,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.71,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.707,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.66,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.666,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.66,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.66,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.658,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.659,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.653,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.659,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.658,"com.bliss.APITestingFramework.Testcases.DeleteCustomerTest     @TestCase : validateDeleteCustomerAPI":0.657
+			};
+		</script>
+		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
+		<script type='text/javascript'>
+		</script>
+	</body>
+</html>

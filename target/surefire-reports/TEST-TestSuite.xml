@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.82" tests="6" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/varma/Documents/JavaProgramming/APITestNGFramework/target/test-classes:/Users/varma/Documents/JavaProgramming/APITestNGFramework/target/classes:/Users/varma/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/varma/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/varma/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/varma/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/varma/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/varma/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/varma/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/varma/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/varma/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/varma/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/varma/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/varma/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/varma/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/varma/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/varma/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/varma/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/varma/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/varma/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/varma/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/varma/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/varma/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/varma/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/varma/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/varma/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0/jackson-databind-2.14.0.jar:/Users/varma/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0/jackson-annotations-2.14.0.jar:/Users/varma/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0/jackson-core-2.14.0.jar:/Users/varma/.m2/repository/org/json/json/20220924/json-20220924.jar:/Users/varma/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/varma/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/varma/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/varma/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/varma/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/varma/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/varma/.m2/repository/org/apache/poi/poi-excelant/5.2.3/poi-excelant-5.2.3.jar:/Users/varma/.m2/repository/org/apache/ant/ant/1.10.12/ant-1.10.12.jar:/Users/varma/.m2/repository/org/apache/ant/ant-launcher/1.10.12/ant-launcher-1.10.12.jar:/Users/varma/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/varma/.m2/repository/org/apache/poi/poi-ooxml-full/5.2.3/poi-ooxml-full-5.2.3.jar:/Users/varma/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/varma/.m2/repository/org/slf4j/slf4j-api/2.0.3/slf4j-api-2.0.3.jar:/Users/varma/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/varma/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/varma/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/varma/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/varma/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/varma/Documents/JavaProgramming/APITestNGFramework/target/surefire/surefirebooter-20221115234912335_3.jar /Users/varma/Documents/JavaProgramming/APITestNGFramework/target/surefire 2022-11-15T23-49-11_833-jvmRun1 surefire-20221115234912335_1tmp surefire_0-20221115234912335_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/varma/Documents/JavaProgramming/APITestNGFramework/target/test-classes:/Users/varma/Documents/JavaProgramming/APITestNGFramework/target/classes:/Users/varma/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/varma/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/varma/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/varma/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/varma/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/varma/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/varma/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/varma/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/varma/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/varma/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/varma/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/varma/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/varma/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/varma/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/varma/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/varma/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/varma/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/varma/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/varma/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/varma/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/varma/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/varma/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/varma/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/varma/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0/jackson-databind-2.14.0.jar:/Users/varma/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0/jackson-annotations-2.14.0.jar:/Users/varma/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0/jackson-core-2.14.0.jar:/Users/varma/.m2/repository/org/json/json/20220924/json-20220924.jar:/Users/varma/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/varma/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/varma/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/varma/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/varma/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/varma/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/varma/.m2/repository/org/apache/poi/poi-excelant/5.2.3/poi-excelant-5.2.3.jar:/Users/varma/.m2/repository/org/apache/ant/ant/1.10.12/ant-1.10.12.jar:/Users/varma/.m2/repository/org/apache/ant/ant-launcher/1.10.12/ant-launcher-1.10.12.jar:/Users/varma/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/varma/.m2/repository/org/apache/poi/poi-ooxml-full/5.2.3/poi-ooxml-full-5.2.3.jar:/Users/varma/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/varma/.m2/repository/org/slf4j/slf4j-api/2.0.3/slf4j-api-2.0.3.jar:/Users/varma/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/varma/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/varma/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/varma/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/varma/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/varma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/varma/Documents/JavaProgramming/APITestNGFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/varma/Documents/JavaProgramming/APITestNGFramework/target/surefire/surefirebooter-20221115234912335_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="varma"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/varma/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/rf/3t1dt3_51ts56czdm2b1430r0000gn/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/varma/Documents/JavaProgramming/APITestNGFramework"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/varma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="validateCreateCustomerAPI[{email=baby7913@gmail.com, name=Baby, description=adding my wife as customer from framework}](3)" classname="com.bliss.APITestingFramework.Testcases.CreateCustomerTest" time="3.147">
+    <system-out><![CDATA[testingdata
+total rows are 14
+validateCreateCustomerAPI ------ validateCreateCustomerAPI
+Testcase starts from 1
+ test data rows number is 4
+total columns in testcase are 3
+{
+    "id": "cus_MoBEE49NyYLjpf",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1668556157,
+    "currency": null,
+    "default_currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "adding my daugther as customer from framework",
+    "discount": null,
+    "email": "preesha.aradhula@gmail.com",
+    "invoice_prefix": "C7B251F4",
+    "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+    },
+    "livemode": false,
+    "metadata": {
+        
+    },
+    "name": "Preesha",
+    "phone": null,
+    "preferred_locales": [
+        
+    ],
+    "shipping": null,
+    "tax_exempt": "none",
+    "test_clock": null
+}
+200
+{
+    "id": "cus_MoBEFpveh73tTz",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1668556157,
+    "currency": null,
+    "default_currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "adding my wife as customer from framework",
+    "discount": null,
+    "email": "baby7913@gmail.com",
+    "invoice_prefix": "39CCB5BE",
+    "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+    },
+    "livemode": false,
+    "metadata": {
+        
+    },
+    "name": "Baby",
+    "phone": null,
+    "preferred_locales": [
+        
+    ],
+    "shipping": null,
+    "tax_exempt": "none",
+    "test_clock": null
+}
+200
+{
+    "id": "cus_MoBEc2YfCkyHFM",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1668556157,
+    "currency": null,
+    "default_currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "adding the customer from framework",
+    "discount": null,
+    "email": "myemail.id@gmail.com",
+    "invoice_prefix": "3E0FF252",
+    "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+    },
+    "livemode": false,
+    "metadata": {
+        
+    },
+    "name": "Varma",
+    "phone": null,
+    "preferred_locales": [
+        
+    ],
+    "shipping": null,
+    "tax_exempt": "none",
+    "test_clock": null
+}
+200
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreateCustomerAPI[{email=preesha.aradhula@gmail.com, name=Preesha, description=adding my daugther as customer from framework}](3)" classname="com.bliss.APITestingFramework.Testcases.CreateCustomerTest" time="3.148"/>
+  <testcase name="validateCreateCustomerAPI[{email=myemail.id@gmail.com, name=Varma, description=adding the customer from framework}](3)" classname="com.bliss.APITestingFramework.Testcases.CreateCustomerTest" time="3.148"/>
+  <testcase name="validateCreateCustomerAPI[{email=Ayansh.aradhula@gmail.com, name=Ayansh, description=adding my son as customer from framework}](4)" classname="com.bliss.APITestingFramework.Testcases.CreateCustomerTest" time="3.149">
+    <system-out><![CDATA[{
+    "id": "cus_MoBEryIZAKe41D",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1668556157,
+    "currency": null,
+    "default_currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "adding my son as customer from framework",
+    "discount": null,
+    "email": "Ayansh.aradhula@gmail.com",
+    "invoice_prefix": "78992A3F",
+    "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+    },
+    "livemode": false,
+    "metadata": {
+        
+    },
+    "name": "Ayansh",
+    "phone": null,
+    "preferred_locales": [
+        
+    ],
+    "shipping": null,
+    "tax_exempt": "none",
+    "test_clock": null
+}
+200
+]]></system-out>
+  </testcase>
+  <testcase name="InvalidateCreateCustomerAPI[{email=myemail.address@gmail.com, name=Krishna, description=adding the customer from framework123}](1)" classname="com.bliss.APITestingFramework.Testcases.CreateCustomerTest" time="0.269">
+    <failure message="expected [200] but found [401]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.bliss.APITestingFramework.Testcases.CreateCustomerTest.InvalidateCreateCustomerAPI(CreateCustomerTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[testingdata
+total rows are 14
+validateCreateCustomerAPI ------ InvalidateCreateCustomerAPI
+name ------ InvalidateCreateCustomerAPI
+Varma ------ InvalidateCreateCustomerAPI
+Baby ------ InvalidateCreateCustomerAPI
+Preesha ------ InvalidateCreateCustomerAPI
+Ayansh ------ InvalidateCreateCustomerAPI
+ ------ InvalidateCreateCustomerAPI
+InvalidateCreateCustomerAPI ------ InvalidateCreateCustomerAPI
+Testcase starts from 8
+ test data rows number is 1
+total columns in testcase are 3
+{
+    "error": {
+        "message": "Invalid API Key provided: sk_test_*********************************************************************************************jnoU",
+        "type": "invalid_request_error"
+    }
+}
+401
+]]></system-out>
+  </testcase>
+  <testcase name="validateDeleteCustomerAPI[{customerId=cus_Mnn8rYJsJY0cEN}](1)" classname="com.bliss.APITestingFramework.Testcases.DeleteCustomerTest" time="0.443">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.bliss.APITestingFramework.Testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[PASSED: com.bliss.APITestingFramework.Testcases.CreateCustomerTest.validateCreateCustomerAPI({email=Ayansh.aradhula@gmail.com, name=Ayansh, description=adding my son as customer from framework})
+PASSED: com.bliss.APITestingFramework.Testcases.CreateCustomerTest.validateCreateCustomerAPI({email=myemail.id@gmail.com, name=Varma, description=adding the customer from framework})
+PASSED: com.bliss.APITestingFramework.Testcases.CreateCustomerTest.validateCreateCustomerAPI({email=preesha.aradhula@gmail.com, name=Preesha, description=adding my daugther as customer from framework})
+PASSED: com.bliss.APITestingFramework.Testcases.CreateCustomerTest.validateCreateCustomerAPI({email=baby7913@gmail.com, name=Baby, description=adding my wife as customer from framework})
+FAILED: com.bliss.APITestingFramework.Testcases.CreateCustomerTest.InvalidateCreateCustomerAPI({email=myemail.address@gmail.com, name=Krishna, description=adding the customer from framework123})
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.bliss.APITestingFramework.Testcases.CreateCustomerTest.InvalidateCreateCustomerAPI(CreateCustomerTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+===============================================
+    Create Customer API
+    Tests run: 2, Failures: 1, Skips: 0
+===============================================
+
+testingdata
+total rows are 14
+validateCreateCustomerAPI ------ validateDeleteCustomerAPI
+name ------ validateDeleteCustomerAPI
+Varma ------ validateDeleteCustomerAPI
+Baby ------ validateDeleteCustomerAPI
+Preesha ------ validateDeleteCustomerAPI
+Ayansh ------ validateDeleteCustomerAPI
+ ------ validateDeleteCustomerAPI
+InvalidateCreateCustomerAPI ------ validateDeleteCustomerAPI
+name ------ validateDeleteCustomerAPI
+Krishna ------ validateDeleteCustomerAPI
+ ------ validateDeleteCustomerAPI
+validateDeleteCustomerAPI ------ validateDeleteCustomerAPI
+Testcase starts from 12
+ test data rows number is 1
+total columns in testcase are 1
+{
+    "error": {
+        "code": "resource_missing",
+        "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+        "message": "No such customer: 'cus_Mnn8rYJsJY0cEN'",
+        "param": "id",
+        "request_log_url": "https://dashboard.stripe.com/test/logs/req_QnBnoPDBbxhogF?t=1668556159",
+        "type": "invalid_request_error"
+    }
+}
+404
+]]></system-out>
+  </testcase>
+</testsuite>

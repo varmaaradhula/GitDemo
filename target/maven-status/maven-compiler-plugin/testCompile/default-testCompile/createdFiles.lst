@@ -1,0 +1,11 @@
+com/bliss/APITestingFramework/Rough/TestProperties.class
+com/bliss/APITestingFramework/Testcases/DeleteCustomerTest.class
+com/bliss/APITestingFramework/Setup/BaseTest.class
+com/bliss/TestNgFramework/listners/ExtentManager.class
+com/bliss/APITestingFramework/utilities/DataUtil.class
+com/bliss/TestNgFramework/listners/ExtentListeners.class
+com/bliss/APITestngFramework/APIs/CreateCustomerAPI.class
+com/bliss/APITestingFramework/utilities/ExcelReader.class
+com/bliss/APITestingFramework/Testcases/CreateCustomerTest.class
+com/bliss/APITestingFramework/utilities/TestUtil.class
+com/bliss/APITestngFramework/APIs/DeleteCustomerAPI.class
